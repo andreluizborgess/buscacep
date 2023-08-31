@@ -17,6 +17,7 @@ const BuscaCepForm = () => {
             setLocalidade(data.localidade);
             setCep(data.cep)
             setUf(data.uf);
+            setErro("")
             }
         ).catch(error =>{
             setErro("PESQUISA INVALIDA",);
